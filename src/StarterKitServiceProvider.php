@@ -7,11 +7,9 @@ class StarterKitServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-
-    }
-
-    public function boot(): void
-    {
-
+        $this->publishes([
+            __DIR__ . '/phpstan.neon' => base_path('phpstan.neon'),
+            __DIR__ . '/commands.txt' => base_path('commands.txt'),
+        ]);
     }
 }

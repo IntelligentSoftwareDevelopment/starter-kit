@@ -1,0 +1,8 @@
+## IDE HELPER
+php artisan ide-helper:models -R -W "' . $model . '"
+OR
+php artisan ide App/Models/User
+## phpstan
+./vendor/bin/phpstan analyse --memory-limit=2G
+## fixer
+./vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix

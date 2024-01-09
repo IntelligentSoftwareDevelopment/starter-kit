@@ -22,5 +22,24 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "isoftd/enummethods": "^1.0.0",
+        "isoftd/fixer-command": "^1.0.0",
+        "isoftd/ide-helper-command": "^1.0.0",
+        "larastan/larastan": "^2.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:IntelligentSoftwareDevelopment/fixer-command.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:IntelligentSoftwareDevelopment/enum-methods.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:IntelligentSoftwareDevelopment/ide-helper-command.git"
+        }
+    ]
 }
