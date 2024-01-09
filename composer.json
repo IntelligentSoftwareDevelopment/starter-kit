@@ -27,7 +27,7 @@
         "isoftd/fixer-command": "^1.0.0",
         "isoftd/ide-helper-command": "^1.0.0",
         "larastan/larastan": "^2.0",
-        "spatie/laravel-data": "dev-main"
+        "spatie/laravel-data": "^3.10.0"
     },
     "repositories": [
         {
