@@ -1,0 +1,26 @@
+{
+    "name": "isoftd/starter-kit",
+    "description": "The necessary packages for new Laravel project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IntelligentSoftwareDevelopment\\StarterKit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Rusev",
+            "email": "ins0mniac1van@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IntelligentSoftwareDevelopment\\StarterKit\\StarterKitServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
